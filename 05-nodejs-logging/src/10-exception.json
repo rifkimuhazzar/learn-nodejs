@@ -1,0 +1,78 @@
+{
+  "date": "Wed Dec 07 2022 00:01:40 GMT+0700 (Western Indonesia Time)",
+  "error": {},
+  "exception": true,
+  "level": "error",
+  "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///C:/Users/Asus/Documents/01/03-learn-nodejs-(PZN)/05-nodejs-logging/src/10-exception.js:15:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:530:24)\n    at async loadESM (node:internal/process/esm_loader:91:5)\n    at async handleMainPromise (node:internal/modules/run_main:65:12)",
+  "os": { "loadavg": [0, 0, 0], "uptime": 2160075 },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Asus\\Documents\\01\\03-learn-nodejs-(PZN)\\05-nodejs-logging\\src\\10-exception.js"
+    ],
+    "cwd": "C:\\Users\\Asus\\Documents\\01\\03-learn-nodejs-(PZN)\\05-nodejs-logging",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 81155,
+      "external": 636609,
+      "heapTotal": 11358208,
+      "heapUsed": 8263560,
+      "rss": 38289408
+    },
+    "pid": 71656,
+    "uid": null,
+    "version": "v18.12.1"
+  },
+  "stack": "ReferenceError: hello is not defined\n    at file:///C:/Users/Asus/Documents/01/03-learn-nodejs-(PZN)/05-nodejs-logging/src/10-exception.js:15:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:530:24)\n    at async loadESM (node:internal/process/esm_loader:91:5)\n    at async handleMainPromise (node:internal/modules/run_main:65:12)",
+  "trace": [
+    {
+      "column": 1,
+      "file": "file:///C:/Users/Asus/Documents/01/03-learn-nodejs-(PZN)/05-nodejs-logging/src/10-exception.js",
+      "function": null,
+      "line": 15,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 193,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": null,
+      "file": null,
+      "function": "async Promise.all",
+      "line": null,
+      "method": "all",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ESMLoader.import",
+      "line": 530,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 91,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 65,
+      "method": null,
+      "native": false
+    }
+  ]
+}

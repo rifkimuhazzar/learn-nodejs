@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1670309651346" clover="3.2.0">
+  <project timestamp="1670309651346" name="All files">
+    <metrics statements="16" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0" elements="26" coveredelements="1" complexity="0" loc="16" ncloc="16" packages="1" files="3" classes="3"/>
+    <file name="01-sum.js" path="C:\Users\Asus\Documents\01\03-learn-nodejs-(PZN)\04-nodejs-unit-test\src\01-sum.js">
+      <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+    </file>
+    <file name="07-exception.js" path="C:\Users\Asus\Documents\01\03-learn-nodejs-(PZN)\04-nodejs-unit-test\src\07-exception.js">
+      <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+    </file>
+    <file name="09-async.js" path="C:\Users\Asus\Documents\01\03-learn-nodejs-(PZN)\04-nodejs-unit-test\src\09-async.js">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
