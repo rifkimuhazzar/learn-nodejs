@@ -1,0 +1,19 @@
+{
+  "name": "learn-nodejs-validation-using-joi",
+  "version": "1.0.0",
+  "description": "learn nodejs validation using joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "joi": "^17.13.3"
+  }
+}
