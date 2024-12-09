@@ -1,0 +1,92 @@
+[
+  {
+    "filePath": "C:\\Users\\hello\\Documents\\B\\Learn Programming\\learn-nodejs\\11-nodejs-eslint\\eslint.config.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "C:\\Users\\hello\\Documents\\B\\Learn Programming\\learn-nodejs\\11-nodejs-eslint\\src\\main.js",
+    "messages": [
+      {
+        "ruleId": "prefer-const",
+        "severity": 2,
+        "message": "'message' is never reassigned. Use 'const' instead.",
+        "line": 2,
+        "column": 7,
+        "nodeType": "Identifier",
+        "messageId": "useConst",
+        "endLine": 2,
+        "endColumn": 14,
+        "fix": { "range": [29, 59], "text": "const message = `Hello ${name}`;" }
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 1,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 1,
+    "fixableWarningCount": 0,
+    "source": "function sayHello(name) {\r\n  let message = `Hello ${name}`;\r\n  console.log(message);\r\n}\r\n\r\nsayHello(\"Express\");",
+    "usedDeprecatedRules": [{ "ruleId": "semi", "replacedBy": [] }]
+  },
+  {
+    "filePath": "C:\\Users\\hello\\Documents\\B\\Learn Programming\\learn-nodejs\\11-nodejs-eslint\\src\\person.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "C:\\Users\\hello\\Documents\\B\\Learn Programming\\learn-nodejs\\11-nodejs-eslint\\src\\repository.js",
+    "messages": [
+      {
+        "ruleId": "require-await",
+        "severity": 2,
+        "message": "Async function 'getData' has no 'await' expression.",
+        "line": 1,
+        "column": 8,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "missingAwait",
+        "endLine": 1,
+        "endColumn": 30,
+        "suggestions": [
+          {
+            "messageId": "removeAsync",
+            "fix": { "range": [7, 13], "text": "" },
+            "desc": "Remove 'async'."
+          }
+        ]
+      },
+      {
+        "ruleId": "prefer-const",
+        "severity": 2,
+        "message": "'total' is never reassigned. Use 'const' instead.",
+        "line": 6,
+        "column": 7,
+        "nodeType": "Identifier",
+        "messageId": "useConst",
+        "endLine": 6,
+        "endColumn": 12,
+        "fix": { "range": [96, 114], "text": "const total = a + b;" }
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 2,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 1,
+    "fixableWarningCount": 0,
+    "source": "export async function getData() {\r\n  return \"Hello World\";\r\n}\r\n\r\nexport function sum(a, b) {\r\n  let total = a + b;\r\n  return total;\r\n}",
+    "usedDeprecatedRules": [{ "ruleId": "semi", "replacedBy": [] }]
+  }
+]
