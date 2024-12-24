@@ -1,0 +1,2 @@
+# NPM tidak membaca .gitignore jika ada .npmignore
+# .gitignore dan .npmignore tidak ikut dipublish ke NPM registry
