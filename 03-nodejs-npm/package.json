@@ -1,0 +1,26 @@
+{
+  "name": "learn-nodejs-npm",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "start": "node index.js",
+    "poststart": "echo 'After npm start'",
+    "prestart": "echo 'Before npm start'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "learn-nodejs-npm-library-100": "^1.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "moment": "^2.30.1"
+  }
+}
